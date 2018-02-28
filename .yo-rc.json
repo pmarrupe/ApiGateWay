@@ -1,0 +1,35 @@
+{
+  "generator-jhipster": {
+    "applicationType": "gateway",
+    "gitHubOrganization": "pmarrupe",
+    "baseName": "ApiGateWay",
+    "packageName": "org.gateway.application",
+    "serverPort": 8081,
+    "serviceDiscoveryType": "eureka",
+    "authenticationType": "oauth2",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "enableSwaggerCodegen": false,
+    "messageBroker": false,
+    "buildTool": "maven",
+    "enableSocialSignIn": false,
+    "useSass": false,
+    "clientPackageManager": "yarn",
+    "testFrameworks": [],
+    "enableTranslation": false,
+    "nativeLanguage": "en",
+    "languages": [
+      "en"
+    ],
+    "clientFramework": "angularX",
+    "jhipsterVersion": "4.14.1",
+    "packageFolder": "org/gateway/application",
+    "jhiPrefix": "jhi"
+  }
+}
